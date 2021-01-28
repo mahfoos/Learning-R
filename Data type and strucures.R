@@ -1,4 +1,4 @@
-# Projecct: Learning R
+# Project: Learning R
 
 # DATA TYPES ######################
 
@@ -30,3 +30,31 @@ l1 <- TRUE
 l1
 typeof(l1)
 
+
+# DATA STRUCTURE ####################
+
+# Vector ############################
+
+v1 <- c(1,2,3,4) 
+v1
+is.vector(v1)  # Check whether vector or not
+
+v2 <- c("a","b","c")
+v2
+is.vector(v2)
+
+v3 <- c(TRUE,FALSE,TRUE,TRUE)
+v3
+is.vector(v3)
+
+
+# Matrix ############################
+
+n1 <- matrix(c(T,T,F,T,F,T), nrow = 2) # Matrix 2 row and 3 column
+n1
+
+n2 <- matrix(c("0","B",
+               "C","D"),
+                nrow = 2,
+                byrow = T)
+n2
