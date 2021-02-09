@@ -90,3 +90,6 @@ o3 <- c(T,F,T,T,F)
 
 list1 <- list(o1,o2,o3)
 list1
+
+list2 <- list(o1,o2,o3,list1)
+list2
