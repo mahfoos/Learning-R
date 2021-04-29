@@ -17,9 +17,11 @@ barplot(y[order(y)])  # Ascending order
 barplot(y[order(-y)]) # Descending order
 barplot(y[order(y)], horiz = TRUE)  # Horizontal order
 barplot(y[order(y)], col = "red")  # Coloring for all barplot
-barplot(y[order(y)],col = c("red","blue")) # Coloring seperatly
+barplot(y[order(y)],col = c("red","blue"), border = NA, main = "Title Of Barplot") # Coloring seperatly
+barplot(y,xlab = "Count",ylab = "Gender")  # For naming the x Lab and Y lab
 
 colors() # get the color of in R
+
 
 
 

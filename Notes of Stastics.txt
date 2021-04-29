@@ -1,0 +1,11 @@
+			Types of data
+1 :- Qualitative or Categorical * Normal(orderd) and Ordinal (ordered)
+2 :- Quantitative  *Discrete and Continous
+
+			Type of Stastics
+1 :- Descriptive  :- Mean,Median,Mode,Range,Standard Deviation,Frequency Distributions, Histograms
+2 :- Inferential  :- Hypothesis testing, ANOVA, Chi-Squared Tests, Regression
+
+
+			Frequency distribution
+* A FD for qualitative data list all categerios and the number of elements 

@@ -9,8 +9,8 @@ data2
 # import .xlsx and .xls files
 
 library(readxl)
-SampleData <- read_excel("D:/I I T/02nd Year/Second Semester/Machine Learnig/Learning-R/SampleData.xlsx", 
-                           +     sheet = "SampleData")
+SampleData <- read_excel("D:/I I T/02nd Year/Second Semester/Machine Learnig/Learning-R/SampleData.xlsx")
+                
 View(SampleData)
 
 
